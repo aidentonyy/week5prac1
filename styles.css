@@ -97,3 +97,16 @@ body {
     left:100%;
     bottom:0%;
 }
+
+.background-slide-left{
+    animation: left 10s infinite linear;
+}
+
+@keyframes left {
+    from {
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(-500px);
+    }
+}
